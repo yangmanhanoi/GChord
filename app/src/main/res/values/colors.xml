@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="accent_color">#3887ff</color>
+    <color name="tab_un_select">#9e9ea1</color>
+    <color name="theme">#F2ECF6</color>
+    <color name="purple">#6750A4</color>
+    <color name="red">#FF0000</color>
+    <color name="background">#F7F7F7</color>
+    <color name="secondary_purple">#625B71</color>
+    <color name="tertiary">#7D5260</color>
+    <color name="pink">#EDDFE0</color>
+
+    <color name="material_dynamic_primary40">#00668B</color>
+    <color name="material_dynamic_primary100">#FFFFFF</color>
+    <color name="material_dynamic_primary90">#C1E8FF</color>
+    <color name="material_dynamic_primary10">#001E2C</color>
+
+    <color name="material_dynamic_secondary40">#4E616C</color>
+    <color name="material_dynamic_secondary100">#FFFFFF</color>
+    <color name="material_dynamic_secondary90">#D1E5F4</color>
+    <color name="material_dynamic_secondary10">#091E28</color>
+
+    <color name="material_dynamic_tertiary40">#605A7C</color>
+    <color name="material_dynamic_tertiary90">#FFFFFF</color>
+    <color name="material_dynamic_tertiary10">#E6DEFF</color>
+    <color name="colorOnTertiaryContainer">#1D1736</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="lavender">#8692f7</color>
+
+    <color name="des_back">#323642</color>
+
+    <color name="main_green_color">#00FF75</color>
+    <color name="main_gray_color">#B6B6B6</color>
+    <color name="gradient_1">#00FF75</color>
+    <color name="gradient_2">#BDFF00</color>
+    <color name="gradient_3">#A1E6B8</color>
+    <color name="gradient_text">#075364</color>
+    <color name="cancel_btn">#888A97</color>
+    <color name="cancel_text">#B6B6B6</color>
+    <color name="background_chord">#D9D9D9</color>
+</resources>

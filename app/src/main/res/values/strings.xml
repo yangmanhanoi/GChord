@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">Guitar Chord</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="splash_text">Liforte Chord App</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_history">History</string>
+    <string name="nav_premium">Premium</string>
+    <string name="topbar_setLists">Set Lists</string>
+    <string name="topbar_share">Share</string>
+    <string name="topbar_more">More</string>
+    <string name="page_title">Song Name</string>
+    <string name="content_list">List</string>
+    <string name="content_share">Share</string>
+    <string name="content_more">More</string>
+
+    <string name="text_label1">Overview</string>
+    <string name="text_label5">Diagrams</string>
+    <string name="text_label2">Transpose</string>
+    <string name="text_label3">Capo</string>
+    <string name="text_label4">Simplify</string>
+
+    <string name="extended_fab_content_desc">Auto Scroll</string>
+    <string name="extended_fab_label">Auto Scroll</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+    <string name="logIn">LOGIN WITH</string>
+    <string name="SignUp">Signup with</string>
+    <string name="Forgot">Forgot password</string>
+    <string name="cancel">Cancel</string>
+    <string name="Save">Save</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm">Confirm password</string>
+    <string name="siginGoogle">Sign in with Google</string>
+    <string name="siginFacebook">Sign in with Facebook</string>
+    <string name="forgotpwd">Forgot password?</string>
+    <string name="createAcc">Create new account</string>
+    <string name="sign_up_success">You have signed up successfully</string>
+    <string name="sign_up_failed">You have signed up unsuccessfully</string>
+    <string name="reset_pwd_guide">Enter the email associated with your account and we will send an email with instructions to reset your password</string>
+    <string name="send_instruction">Send Instruction</string>
+    <string name="sended">Having sent email</string>
+
+    <string name="pwd_signUp_empty">Password cannot be empty</string>
+    <string name="rePwd_empty">Confirm password cannot be empty</string>
+    <string name="rePwd_error">Your confirm password was not correct</string>
+    <string name="pwd_error">Your password is not correct</string>
+    <string name="pwd_empty">Empty password are not allowed</string>
+
+    <string name="email_signUp_empty">Email cannot be empty</string>
+    <string name="email_empty">Empty email are not allowed</string>
+    <string name="email_error">Your email is not correct</string>
+    <!-- Facebook login-->
+    <string name="facebook_app_id">355874110227166</string>
+    <string name="fb_login_protocol_scheme">fb355874110227166</string>
+    <string name="facebook_client_token">e96718fe38492ae3d3eb900d05e8e426</string>
+
+    <string name="capo1">Capo 1</string>
+    <string name="capo2">Capo 2</string>
+    <string name="capo3">Capo 3</string>
+    <string name="capo4">Capo 4</string>
+    <string name="capo5">Capo 5</string>
+    <string name="capo6">Capo 6</string>
+
+    <string name="version_err">The app’s version is too low and needs to be updated</string>
+    <string name="splash_err">Oops! Something went wrong. Please try again!</string>
+    <string name="usage">Easy to play guitar</string>
+    <string name="ask_4_save">Hi, do you want to save this song?</string>
+    <string name="detail_save">The song will be saved in the history and can be used again next time. Save more time!</string>
+    <string name="signUp">SignUp With</string>
+    <string name="what_can_do">What can GChord do?</string>
+    <string name="what_do">GChord can detect and translate songs and audio links into guitar chords.</string>
+    <string name="what_can_search">What can GChord search</string>
+    <string name="what_search">You can find the song name by entering the title or pasting the Youtube link into the search section.</string>
+    <string name="what_can_tune">What can GChord tune?</string>
+    <string name="what_tune">You need to place your phone\'s mic close to your guitar and pluck the string</string>
+    <string name="limited_access">Limited access</string>
+    <string name="limited_access_content">You need to log in to keep using this feature</string>
+    <string name="permission_access">Permission access</string>
+    <string name="permission_access_content">You need to give permission to access microphone in order to use this feature</string>
+    <string name="chord_fragment">You have not chosen any song yet!</string>
+    <string name="chord_fragment_content">Please choose a song to use this feature</string>
+    <string name="hello_user">Hi User, \n enjoy your free song</string>
+    <string name="no_song_unlock">You have no songs unlocked for today yet. \nYou can play along with these songs over and over again.</string>
+    <string name="top_song">Top songs today</string>
+    <string name="history">History</string>
+    <string name="search_hint">Search for song…</string>
+    <string name="login_feature">for more features</string>
+    <!--    Ads-->
+    <string name="adsMobAppId">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="adsBannerId">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="adsNativeId">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="adsRewardedId">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="adsInterstitialId">ca-app-pub-3940256099942544/1033173712</string>
+
+    
+    <string name="feedback">Give feedback</string>
+    <string name="how_do">How did we do?</string>
+    <string name="care_more">Care to share more about it?</string>
+    <string name="publish_feedback">Publish feedback</string>
+    <string name="make_sure">Confirm</string>
+    <string name="sure_msg">Are you sure to send your feedback to us?</string>
+<!--    <string name="default_web_client_id">565276924925-t10meeo5dbjcb0q3cj9dju8uh7q53hoi.apps.googleusercontent.com</string>-->
+
+
+    <string name="cat_bottomsheet_title">Bottom Sheet</string>
+    <string name="cat_bottomsheet_description">
+    Displays a demo of the Bottom Sheet component.
+  </string>
+    <string name="cat_bottomsheet_switch_text">
+    fullscreen mode
+  </string>
+    <string name="cat_bottomsheet_expansion_switch_text">
+    restrict expansion
+  </string>
+
+    <string name="cat_bottomsheet_button_text">
+    Show Modal BottomSheetDialog
+  </string>
+    <string name="cat_bottomsheet_state_collapsed" translatable="false">
+    STATE_COLLAPSED
+  </string>
+    <string name="cat_bottomsheet_state_dragging" translatable="false">
+    STATE_DRAGGING
+  </string>
+    <string name="cat_bottomsheet_state_expanded" translatable="false">
+    STATE_EXPANDED
+  </string>
+    <string name="cat_bottomsheet_state_half_expanded" translatable="false">
+    STATE_HALF_EXPANDED\nhalfExpandedRatio = %.2f
+  </string>
+    <string name="cat_bottomsheet_persistent">
+    Persistent Bottomsheet
+  </string>
+
+    <string name="cat_bottomsheet_textfield_label" description="The label for the bottom sheet text field. [CHAR_LIMIT=100]">
+    Label
+  </string>
+    <string name="cat_bottomsheet_button_label_enabled">Enabled</string>
+    <string name="cat_bottomsheet_button_label_disabled">Disabled</string>
+    <string name="cat_bottomsheet_button_clicked">Button clicked</string>
+    <string name="cat_bottomsheet_scrollable_content_demo_title">
+    Vertically scrollable content demo
+  </string>
+    <string name="cat_bottomsheet_label_add_people">Add People</string>
+    <string name="cat_bottomsheet_label_copy_link">Copy link</string>
+    <string name="cat_bottomsheet_label_open_in">Open In</string>
+    <string name="cat_bottomsheet_label_move">Move</string>
+    <string name="cat_bottomsheet_label_available_offline">Available offline</string>
+    <string name="cat_bottomsheet_label_star">Star</string>
+    <string name="cat_bottomsheet_label_remove">Remove</string>
+    <string name="cat_bottomsheet_label_rename">Rename</string>
+    <string name="default_web_client_id">802530411222-5139gj17okikh16gaipga416mglpnkgs.apps.googleusercontent.com</string>
+
+</resources>

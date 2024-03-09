@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "802530411222",
+    "project_id": "guitarchord-17896",
+    "storage_bucket": "guitarchord-17896.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802530411222:android:76b69867861cf06d39ff77",
+        "android_client_info": {
+          "package_name": "tunermusic.metronome.chords"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802530411222-c4c3c1coea6e7k60j0nr98ep7m3251n4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tunermusic.metronome.chords",
+            "certificate_hash": "7f18ac16370375ab501ed9380fcee18ae0220991"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqW_aHO9qKp7vFj-6xJcI6cp8DbIyEM94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:backgroundTint="@color/transparent"
+    android:id="@+id/bottom_sheet_layout"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:behavior_hideable="false"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+        android:id="@+id/standard_bottom_sheet"
+        app:cardCornerRadius="15dp">
+        <LinearLayout
+            android:layout_marginTop="-20dp"
+            android:background="@drawable/main_background"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:fitsSystemWindows="true"
+            android:layout_height="match_parent">
+            <View
+                app:enableEdgeToEdge="true"
+                android:background="@drawable/custom_edittext"
+                android:layout_width="70dp"
+                android:layout_marginBottom="18.2dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="3dp"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/txt_title"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_marginHorizontal="20dp"
+                android:id="@+id/txt_infor"
+                android:layout_marginTop="18.2dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/imageDialog"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:src="@drawable/help" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewNativeAds"
+                app:cardCornerRadius="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

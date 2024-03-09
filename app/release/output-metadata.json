@@ -1,0 +1,30 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "tunermusic.metronome.chords",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+<<<<<<< HEAD
+<<<<<<< HEAD
+      "versionCode": 11,
+      "versionName": "1.4",
+=======
+      "versionCode": 12,
+      "versionName": "1.5",
+>>>>>>> bba5b410d922ec1e0988c01e0f992ff558fcffd8
+=======
+      "versionCode": 14,
+      "versionName": "1.7",
+>>>>>>> ecef3ce3cfa56121d339b0f8bc43716061ffa732
+      "outputFile": "app-release.apk"
+    }
+  ],
+  "elementType": "File"
+}

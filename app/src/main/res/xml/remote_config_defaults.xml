@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<defaults>
+  <entry>
+    <key>adsBannerId</key>
+    <value>ca-app-pub-3940256099942544/6300978111</value>
+  </entry>
+  <entry>
+    <key>adsNativeId</key>
+    <value>ca-app-pub-3940256099942544/2247696110</value>
+  </entry>
+  <entry>
+    <key>adsRewardedId</key>
+    <value>ca-app-pub-3940256099942544/5224354917</value>
+  </entry>
+  <entry>
+    <key>adsInterstitialId</key>
+    <value>ca-app-pub-3940256099942544/1033173712</value>
+  </entry>
+  <entry>
+    <key>adsMobAppId</key>
+    <value>ca-app-pub-3940256099942544~3347511713</value>
+  </entry>
+</defaults>

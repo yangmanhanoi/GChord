@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/main_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:layout_above="@+id/extended_layout"
+        android:id="@+id/frame_node"
+        android:background="@color/background_chord"
+        android:layout_below="@id/frame_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.takusemba.multisnaprecyclerview.MultiSnapRecyclerView
+            android:id="@+id/rcl_chord"
+            app:msrv_gravity="start"
+            app:msrv_interval="1"
+            android:layout_width="match_parent"
+            app:msrv_speed_ms_per_inch="0"
+            android:paddingVertical="12dp"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/extended_layout"
+        android:layout_above="@+id/bottom_container"
+        android:layout_width="match_parent"
+        android:background="@color/background_chord"
+        android:layout_height="?actionBarSize">
+
+        <LinearLayout
+            android:layout_margin="16dp"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom|start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/capoLayout">
+
+            <TextView
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:text="@string/text_label3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/minus_capo"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/minor"
+                android:scaleType="center"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+            <TextView
+                android:id="@+id/capo"
+                android:text="0"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/plus_capo"
+                android:scaleType="center"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/plus"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+        </LinearLayout>
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/extended_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_gravity="bottom|end"
+            android:backgroundTint="@color/des_back"
+            android:contentDescription="@string/extended_fab_content_desc"
+            android:text="@string/extended_fab_label"
+            android:textStyle="bold"
+            />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+    <LinearLayout
+        android:id="@+id/frame_top"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/topContainer"
+            android:paddingTop="4dp"
+            android:background="@color/des_back"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/back_btn"
+                android:layout_marginStart="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <ImageView
+                android:id="@+id/btn_help"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/help_btn"
+                android:layout_gravity="end"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+            <TextView
+                android:id="@+id/songName"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/btn_help"
+                android:layout_toRightOf="@+id/btn_back"
+                android:gravity="center"
+                android:maxLines="1"
+                android:paddingHorizontal="5dp"
+                android:layout_centerVertical="true"
+                android:ellipsize="end"
+                android:text="Bla bla bla"
+                android:textSize="20sp"
+                 />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_chord"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/frame_top"
+            android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView
+                android:background="@color/des_back"
+                android:id="@+id/displayChord"
+                android:paddingTop="8dp"
+                android:paddingHorizontal="4dp"
+                android:layout_width="match_parent"
+                android:paddingBottom="10dp"
+                android:layout_height="wrap_content"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_container"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/youtubeview_layout"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:background="@color/transparent">
+
+            <LinearLayout
+                android:paddingHorizontal="8dp"
+                android:layout_width="0dp"
+                android:paddingVertical="8dp"
+                android:layout_height="match_parent"
+                android:weightSum="3"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/previous_but"
+                        android:id="@+id/prevButton"/>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/play_but"
+                        android:id="@+id/playButton"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:padding="12dp"
+                        android:src="@drawable/tempo_but"
+                        android:id="@+id/tempoButton"/>
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:padding="7dp"
+                        android:src="@drawable/loop_but"
+                        android:id="@+id/loopButton" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:src="@drawable/timer_but"
+                        android:id="@+id/timerButton"/>
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:src="@drawable/volume_but"
+                        android:id="@+id/volumeButton"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/youtubeView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:text="3"
+                    android:gravity="center"
+                    android:textSize="150sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/timerYoutube"
+                    android:visibility="gone"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="#00000000" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/background_chord"
+            android:id="@+id/spacing" />
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/noInternetLayout"
+        android:background="@color/white"
+        android:layout_marginTop="?actionBarSize"
+        android:visibility="gone"
+        android:clickable="true"
+        android:focusable="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please check your internet connection and retry"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:id="@+id/textNoInternet"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>
